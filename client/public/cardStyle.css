@@ -1,0 +1,32 @@
+.cardWrapper {
+  width: 225;
+  height: 300;
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+.card {
+  background: white;
+  width: 225;
+  height: 300;
+  border: 3px solid;
+  border-radius: 5px;
+  transition: 0.1s ease-in-out;
+  position: absolute;
+  cursor: pointer;
+}
+
+.hand > div > .card:hover {
+  transform: translateZ(1px) scale(1.2);
+  z-index: 1;
+}
+
+.hand {
+  width: 24%;
+  height: 50;
+  position: fixed;
+  bottom: 300;
+  display: flex;
+  justify-content: center;
+  transform-style: preserve-3d;
+}
