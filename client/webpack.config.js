@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
   entry: './main.js',
-  mode: 'development',
+  mode: process.env.WEBPACK_SERVE ? 'development' : 'production',
   externals: {
     domino: 'domino'
   },
@@ -33,6 +33,6 @@ module.exports = {
   }
 }
 
-if (process.argv[1].split(path.sep).includes('webpack-serve')) {
+if (process.env.WEBPACK_SERVE) {
   module.exports.serve = require('tram-dev-server-config')
 }

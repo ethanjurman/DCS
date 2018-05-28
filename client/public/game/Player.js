@@ -5,8 +5,4 @@ export class Player {
     this.classes = classes;
     this.deck = [];
   }
-
-  shuffle() {
-
-  }
 }

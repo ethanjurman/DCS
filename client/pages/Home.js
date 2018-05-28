@@ -2,7 +2,6 @@ import Tram from 'tram-one';
 import AppHeader from '../elements/AppHeader';
 import Hand from '../elements/Hand';
 import Card from '../elements/Card';
-import HandStore from '../stores/HandStore';
 
 const html = Tram.html({
   AppHeader, Hand, Card
@@ -14,8 +13,8 @@ const buildHand = (hand) => {
   `);
 }
 
-const Home = ({ hand }, { addCard, removeCard }) => {
-  console.log(hand);
+const Home = ({ hand, lib }, { addCard, removeCard }) => {
+  console.log(hand, lib);
 
   return html`
     <div>

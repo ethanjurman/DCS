@@ -1,5 +1,3 @@
-"use es6";
-
 import {
   PHYSICAL,
   ATTACK,

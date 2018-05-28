@@ -1,5 +1,4 @@
 import Tram from 'tram-one';
-import HandStore from '../stores/HandStore';
 
 const html = Tram.html();
 
