@@ -1,5 +1,5 @@
 # Distributable
-dist
+client/dist
 
 # Files built when testing
 specs/spec-bundle.js
