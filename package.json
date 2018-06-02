@@ -1,0 +1,31 @@
+{
+  "name": "DCS",
+  "version": "1.0.0",
+  "description": "Deck Card System",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-rallycoding": "^3.2.0",
+    "prettier": "^1.13.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanjurman/DCS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanjurman/DCS/issues"
+  },
+  "homepage": "https://github.com/ethanjurman/DCS#readme"
+}

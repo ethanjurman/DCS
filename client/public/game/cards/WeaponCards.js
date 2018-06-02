@@ -15,7 +15,7 @@ import {
 export const Strike = {
   name: 'Strike',
   level: 1,
-  f: fajsodifjso,
+  f: fajiosjdfo,
   types: [PHYSICAL, ATTACK, SWORD, AXE, CLAW, DAGGER],
   attack: 6,
 }

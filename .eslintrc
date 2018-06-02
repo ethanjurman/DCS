@@ -1,21 +1,20 @@
 {
   "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "plugins": [
+    "import",
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": "error"
-  },
-  "indent": [
-    "error",
-    2
-  ],
-  "semi": [
-    2,
-    "always"
-  ]
+    "prettier/prettier": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "semi": [
+      2,
+      "always"
+    ]
+  }
 }
