@@ -1,4 +1,4 @@
-import Tram from 'tram-one';
+import Tram from "tram-one";
 
 const html = Tram.html();
 
@@ -7,7 +7,7 @@ const Hand = (attrs, children) => {
     <div className="hand">
       ${children}
     </div>
-  `
-}
+  `;
+};
 
 export default Hand;

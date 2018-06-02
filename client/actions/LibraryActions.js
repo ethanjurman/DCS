@@ -5,6 +5,6 @@ const LibraryActions = {
     zone.addCard(cards[0]);
     return cards.slice(1);
   }
-}
+};
 
 export default LibraryActions;

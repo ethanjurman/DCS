@@ -1,20 +1,22 @@
 {
+  "env": {
+    "browser": true
+  },
   "extends": [
     "prettier"
   ],
+  "parser": "babel-eslint",
   "plugins": [
-    "import",
     "prettier"
   ],
   "rules": {
     "prettier/prettier": "error",
+    "no-undef": [
+      "error"
+    ],
     "indent": [
       "error",
       2
-    ],
-    "semi": [
-      2,
-      "always"
     ]
   }
 }

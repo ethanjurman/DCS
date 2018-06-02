@@ -1,23 +1,19 @@
-import {
-  PHYSICAL,
-  DEFEND,
-} from './CardTypes';
+import { PHYSICAL, DEFEND, MISC } from "./CardTypes";
 
 export const Parry = {
-  name: 'Parry',
+  name: "Parry",
   level: 1,
   types: [PHYSICAL, DEFEND],
   defend: 4,
-  attack: ({ player }) => player.pickCard(),
-}
+  attack: ({ player }) => player.pickCard()
+};
 
 export const Berserker = {
-  name: 'Berserker',
+  name: "Berserker",
   level: 1,
   types: [PHYSICAL, MISC],
-  attack: ({ player }) => player.addMod(
-    ({ attack }) => {
-      return { attack: attack + 5 }
-    }
-  ),
-}
+  attack: ({ player }) =>
+    player.addMod(({ attack }) => {
+      return { attack: attack + 5 };
+    })
+};

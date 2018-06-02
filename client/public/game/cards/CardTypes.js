@@ -1,4 +1,4 @@
-import { makeEnum } from '../utils/enum';
+import { makeEnum } from "../utils/enum";
 
 export default makeEnum({
   // STYLE CARD TYPES
@@ -53,5 +53,5 @@ export default makeEnum({
   MITHRIL: null,
   GOLD: null,
   DIAMOND: null,
-  DRAGON: null,
+  DRAGON: null
 });

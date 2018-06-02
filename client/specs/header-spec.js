@@ -1,8 +1,9 @@
-const header = require('../elements/app-header')
+import AppHeader from "../elements/AppHeader";
 
-describe('header', () => {
-  it('should have the title', () => {
-    const page = header()
-    expect(page.outerHTML).toMatch('DCS')
-  })
-})
+/* eslint-disable */
+describe("header", () => {
+  it("should have the title", () => {
+    const page = AppHeader();
+    expect(page.outerHTML).toMatch("DCS");
+  });
+});

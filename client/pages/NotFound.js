@@ -1,5 +1,5 @@
-const Tram = require('tram-one')
-const html = Tram.html()
+import Tram from "tram-one";
+const html = Tram.html();
 
 const NotFound = () => {
   return html`
@@ -9,7 +9,7 @@ const NotFound = () => {
       <br /> Check
       <code>DCS/main.js</code> to see all the available routes.
     </div>
-  `
-}
+  `;
+};
 
 export default NotFound;
