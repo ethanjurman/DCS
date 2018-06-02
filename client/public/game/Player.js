@@ -1,8 +1,9 @@
-// need to make CharacterClass object/class and CharacterRace object/class
-
-export class Player {
-  constructor(classes) {
+class Player {
+  constructor({ classes, equipment, deck }) {
     this.classes = classes;
-    this.deck = [];
+    this.equipment = equipment;
+    this.deck = deck;
   }
 }
+
+export default Player;
