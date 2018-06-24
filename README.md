@@ -1,2 +1,2 @@
-# DCS
-Deck Card System
+# YARCS
+Yet Another RPG Card System
